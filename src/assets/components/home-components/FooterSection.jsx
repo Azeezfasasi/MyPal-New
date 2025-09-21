@@ -9,6 +9,8 @@ import sms from '../../images/sms.svg'
 import people from '../../images/people.svg'
 // import mypallogo from '../../images/mypallogo.svg'
 import mypal2 from '../../images/mypal2.jpg'
+// import phonecall from '../../images/phonecall.svg'
+import { Phone } from 'lucide-react';
 
 const FooterSection = () => {
     return (
@@ -63,13 +65,20 @@ const FooterSection = () => {
                     {/* Address */}
                     <div className="flex items-start space-x-2 text-sm text-gray-300 mb-2">
                         <img src={location} alt="" className='mr-[-14px] md:mr-2' />
-                        <p className='text-[#ffffff] text-base font-normal'>No. 3 Jalan Kia Peng, 50450 Kuala Lumpur, Malaysia.</p>
+                        <p className='text-[#ffffff] text-base font-normal'>18B Zainab Street, Medina, Gbagada, Lagos</p>
+                    </div>
+
+                    {/*Phone */}
+                    <div className="flex items-center space-x-2 text-sm text-gray-300 mb-6">
+                        {/* <img src={phonecall} alt="" /> */}
+                        <Phone />
+                        <a href="tel:09055557535" className="hover:text-white transition-colors duration-200 text-[#ffffff] font-['Poppins-Regular',_sans-serif] text-base font-normal relative">09055557535</a>
                     </div>
 
                     {/* Email */}
                     <div className="flex items-center space-x-2 text-sm text-gray-300 mb-6">
                         <img src={sms} alt="" />
-                        <a href="mailto:info@globalnxt.com" className="hover:text-white transition-colors duration-200 text-[#ffffff] font-['Poppins-Regular',_sans-serif] text-base font-normal relative">info@globalnxt.com</a>
+                        <a href="mailto:hello@mypal-inc.com" className="hover:text-white transition-colors duration-200 text-[#ffffff] font-['Poppins-Regular',_sans-serif] text-base font-normal relative">hello@mypal-inc.com</a>
                     </div>
 
                     {/* Contact Us button with avatars */}
