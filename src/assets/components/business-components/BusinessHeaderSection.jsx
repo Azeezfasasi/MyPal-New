@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import mypal2 from '../../images/mypal2.jpg'
+// import mypal2 from '../../images/mypal2.jpg'
+import mypaltransparent from '../../images/mypaltransparent.svg'
+
 
 // Using inline SVG for the chevron-down icon
 const ChevronDownIcon = ({ className }) => (
@@ -171,7 +173,7 @@ export default function BusinessHeaderSection() {
                     <div className="w-full lg:w-fit flex items-center justify-between space-x-4">
                         <Link to="/" className="flex items-center space-x-2">
                              {/* Replace with your logo component or image */}
-                             <img src={mypal2} alt="MyPal Logo" className='w-[130px] h-[74px] rounded-[20px]' />
+                             <img src={mypaltransparent} alt="MyPal Logo" className='w-[110px] h-[110px] rounded-[20px]' />
                         </Link>
                         
                         {/* Mobile Menu Button */}
