@@ -35,61 +35,54 @@ const ChevronRightIcon = ({ className }) => (
 // Updated categories data with a 'path' for each item
 const categories = [
     { name: 'Mobility', path: '/category/mobility', subCategories: [
-        { name: 'Car Rentals', path: '/' },
-        { name: 'Ride Hailing & Taxi', path: '/' },
-        { name: 'Public Transport', path: '/' },
-        { name: 'Logistics & Delivery', path: '/' },
-        { name: 'Bike Rentals', path: '/' },
-        { name: 'Luxury Rental', path: '/' }
+        { name: 'Luxury Rides', path: '/mobility/luxuryrides' },
+        { name: 'Ride Hailing Taxi', path: '/mobility/incityrides' },
+        { name: 'Logistics & Delivery', path: '/mobility/householdlogistics' }
     ] },
     { name: 'Night Life', path: '/category/nightlife', subCategories: [
+        { name: 'Activities', path: '/' },
+        { name: 'Luxury Night', path: '/' },
+        { name: 'Food & Drinks', path: '/' },
         { name: 'Bars & Lounges', path: '/' },
-        { name: 'Clubs', path: '/' },
-        { name: 'Live Music Venues', path: '/' },
-        { name: 'Karaoke', path: '/' },
-        { name: 'Casinos', path: '/' }
+        { name: 'Clubbing & Parties', path: '/' },
+        { name: 'Happening This Month', path: '/' }
     ] },
     { name: 'Restaurant', path: '/category/restaurant', subCategories: [
-        { name: 'Chinese', path: '/' },
-        { name: 'Indian', path: '/' },
-        { name: 'Asian', path: '/' },
-        { name: 'Greek', path: '/' },
-        { name: 'Continental', path: '/' },
-        { name: 'Arabian', path: '/' },
-        { name: 'Mexican', path: '/' },
-        { name: 'Brazilian', path: '/' },
-        { name: 'Buffet Offering', path: '/' },
-        { name: 'African Delicacies', path: '/' },
-        { name: 'Takeout', path: '/' },
+        { name: 'Chinese', path: '/restaurant/finedining' },
+        { name: 'Indian', path: '/restaurant/finedining' },
+        { name: 'Asian', path: '/restaurant/finedining' },
+        { name: 'Greek', path: '/restaurant/finedining' },
+        { name: 'Continental', path: '/restaurant/finedining' },
+        { name: 'Arabian', path: '/restaurant/finedining' },
+        { name: 'Mexican', path: '/restaurant/finedining' },
+        { name: 'Brazilian', path: '/restaurant/finedining' },
+        { name: 'Buffet Offering', path: '/restaurant/buffetservices' },
+        { name: 'African Delicacies', path: '/restaurant/localdelicacies' },
+        { name: 'Takeout', path: '/restaurant/finedining' },
+        { name: 'Kids Friendly', path: '/restaurant/finedining' }
         
     ]},
     { name: 'Event ticketing', path: '/', subCategories: [
+        { name: 'Sport Events', path: '/' },
         { name: 'Concerts & Shows', path: '/' },
-        { name: 'Sports Events', path: '/' },
-        { name: 'Theater & Cinema', path: '/' },
+        { name: 'Theatre and Cinema', path: '/' },
         { name: 'Festivals & Carnivals', path: '/' },
         { name: 'Conferences & Seminars', path: '/' }
     ]},
     { name: 'Beauty & Health', path: '/category/BeautyHealth', subCategories: [
-        { name: 'Hospitals & Clinics', path: '/' },
-        { name: 'Pharmacies', path: '/' },
-        { name: 'Beauty Salons', path: '/' },
-        { name: 'Spas & Wellness', path: '/' },
-        { name: 'Fitness & Gyms', path: '/' }
+        { name: 'Wellness & Spa’s', path: '/' },
+        { name: 'Fitness & Gym', path: '/' },
+        { name: 'Pharmacies', path: '/' }
     ] },
     { name: 'Accommodation', path: '/category/accommodation', subCategories: [
-        { name: 'Shortlet Apartments', path: '/' },
-        { name: 'Hotels & Lodges', path: '/' },
-        { name: 'Rental Homes', path: '/' },
-        { name: 'Purchase Property', path: '/' },
-        { name: 'Real Estate Agencies', path: '/' }
+        { name: 'Short-lets & Beach Houses', path: '/' },
+        { name: 'Beaches & Resorts', path: '/' },
+        { name: 'Hotel Experience', path: '/' }
     ]},
     { name: 'Outdoor Activities', path: '/category/outdooractivities', subCategories: [
-        { name: 'Hiking & Trekking', path: '/' },
-        { name: 'Camping', path: '/' },
-        { name: 'Beach & Water Sports', path: '/' },
-        { name: 'Wildlife & Safari', path: '/' },
-        { name: 'Cycling & Adventure', path: '/' }
+        { name: 'Beaches and Resort', path: '/outdooractivities/beachesresorts' },
+        { name: 'Cruises (Boat and Yacht)', path: '/outdooractivities/boatsyatch' },
+        { name: 'Parks and Recreation', path: '/outdooractivities/parksrecreation' }
     ]},
 ];
 

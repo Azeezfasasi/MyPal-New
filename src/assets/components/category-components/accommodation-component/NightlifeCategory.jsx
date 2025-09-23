@@ -12,7 +12,7 @@ import luxury from '../../../images/luxury.svg'
 export default function NightLifeCategory() {
   const categories = [
     {
-      title: 'BARS &amp; LOUNGES',
+      title: 'BARS & LOUNGES',
       image: finediningimg,
       alt: 'A classy restaurant interior with hanging lights and a bar.',
       link: '/category/nightlife',
@@ -24,13 +24,13 @@ export default function NightLifeCategory() {
       link: '/category/nightlife',
     },
     {
-      title: 'CLUBBING &amp RESERVATIONS',
+      title: 'CLUBBING & RESERVATIONS',
       image: delicaciesimg,
       alt: 'A vibrant disco ball with two cocktail glasses in the foreground.',
       link: '/category/nightlife',
     },
     {
-      title: 'GAMES &am ALTERNATIVE NIGHTS',
+      title: 'GAMES & ALTERNATIVE NIGHTS',
       image: games,
       alt: 'A vibrant disco ball with two cocktail glasses in the foreground.',
       link: '/category/nightlife',
@@ -42,7 +42,7 @@ export default function NightLifeCategory() {
       link: '/category/nightlife',
     },
     {
-      title: 'Luxury &amp Chills Night',
+      title: 'Luxury & Chills Night',
       image: luxury,
       alt: 'A vibrant disco ball with two cocktail glasses in the foreground.',
       link: '/category/nightlife',

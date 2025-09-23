@@ -1,14 +1,14 @@
 import React from 'react';
 import x from '../../images/x.svg'
 import fb from '../../images/fb.svg'
-import web from '../../images/web.svg'
+// import web from '../../images/web.svg'
 import indeed from '../../images/indeed.svg'
 import instagram from '../../images/instagram.svg'
 import location from '../../images/location.svg'
 import sms from '../../images/sms.svg'
 import people from '../../images/people.svg'
-// import mypallogo from '../../images/mypallogo.svg'
-import mypal2 from '../../images/mypal2.jpg'
+import mypallogo from '../../images/mypallogo.svg'
+// import mypal2 from '../../images/mypal2.jpg'
 // import phonecall from '../../images/phonecall.svg'
 import { Phone } from 'lucide-react';
 
@@ -22,7 +22,7 @@ const FooterSection = () => {
                     <p className="text-[#fbfbfb] font-['AvenirNextRoundedStd-Bold',_sans-serif] text-base mb-6 max-w-xs">
                         Connecting you to the world's finest hospitality experiences through our premium digital platform.
                     </p>
-                    <img src={mypal2} alt="MyPal Logo" className='w-[150px] h-[74px] rounded-[20px]' />
+                    <img src={mypallogo} alt="MyPal Logo" className='w-[100px] h-[100px] rounded-[20px]' />
                 </div>
 
                 {/* Column 2: Discover */}
@@ -55,11 +55,10 @@ const FooterSection = () => {
                     
                     {/* Social icons */}
                     <div className="flex items-center space-x-4 mb-4">
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200"><img src={x} alt="" /></a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200"><img src={fb} alt="" /></a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200"> <img src={indeed} alt="" /></a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200"> <img src={web} alt="" /></a>
-                        <a href="#" className="text-white hover:text-gray-400 transition-colors duration-200"> <img src={instagram} alt="" /></a>
+                        <a href="https://x.com/mypaldeals" target='_blank' className="text-white hover:text-gray-400 transition-colors duration-200"><img src={x} alt="twitter X" /></a>
+                        <a href="https://www.facebook.com" target='_blank' className="text-white hover:text-gray-400 transition-colors duration-200"><img src={fb} alt="facebook" /></a>
+                        <a href="https://www.linkedin.com/company/mypal-inc/" target='_blank' className="text-white hover:text-gray-400 transition-colors duration-200"> <img src={indeed} alt="linkedin" /></a>
+                        <a href="https://www.instagram.com/mypaldeals/" target='_blank' className="text-white hover:text-gray-400 transition-colors duration-200"> <img src={instagram} alt="instagram" /></a>
                     </div>
                     
                     {/* Address */}
@@ -69,7 +68,7 @@ const FooterSection = () => {
                     </div>
 
                     {/*Phone */}
-                    <div className="flex items-center space-x-2 text-sm text-gray-300 mb-6">
+                    <div className="flex items-center space-x-2 text-sm text-gray-300 mb-3">
                         {/* <img src={phonecall} alt="" /> */}
                         <Phone />
                         <a href="tel:09055557535" className="hover:text-white transition-colors duration-200 text-[#ffffff] font-['Poppins-Regular',_sans-serif] text-base font-normal relative">09055557535</a>

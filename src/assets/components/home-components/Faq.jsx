@@ -6,38 +6,34 @@ import addcircle from '../../images/addcircle.svg'
 const faqData = [
     {
         question: 'What is MyPal and how does it work?',
-        answer: 'MyPal is a hospitality mobile app designed to help businesses showcase their services and connect with customers. Users can browse exclusive deals, event listings, dining recommendations, and more. Businesses can upload videos and images of their offerings, while users can share their experiences through photos and videos.',
+        answer: 'MyPal is a hospitality and lifestyle muilti-platform that connects businesses with customers through engaging digital experiences. You are able to explore deals, dining options, exclusive events, and lifestyle recommendations. Businesses are able to showcase their services with videos, images, and promotions, turning visibility into bookings. You are able to share your experiences through photos and videos, building authentic word-of-mouth. With MyPal, hospitality businesses gain a dynamic storefront and direct access to their audience.',
     },
     {
-        question: 'How can businesses join MyPal?',
-        answer: 'Businesses can join MyPal by signing up on the business web application. Businesses create their profile, upload descriptions, menus (if applicable), images, and videos of their services, and start connecting with potential customers.',
-    },
-    {
-        question: 'How can businesses join MyPal?',
-        answer: 'Businesses can join MyPal by signing up on the business web application. Businesses create their profile, upload descriptions, menus (if applicable), images, and videos of their services, and start connecting with potential customers.',
+        question: 'How can Businesses Join MyPal?',
+        answer: 'Businesses can easily join MyPal by signing up here. Upon approval, you are able to access your dashboard, showcase your services with descriptions, menus, images, and videos, and start connecting with customers right away.',
     },
     {
         question: 'What types of services can businesses offer on MyPal?',
-        answer: 'Businesses can offer a wide range of services, including dining, event ticketing, outdoor activities, accommodation, beauty & health, nightlife, mobility, and luxury rentals.',
+        answer: 'On MyPal, you are able to showcase a wide range of services, including dining and event ticketing to outdoor activities, accommodation, beauty & health, nightlife, mobility and luxury rentals.',
     },
     {
-        question: 'How do users book services through MyPal?',
-        answer: 'Users can browse services and contact businesses directly through the app to make reservations or bookings. The app facilitates communication between the user and the business.',
+        question: 'How do users make reservations and bookings on MyPal?',
+        answer: 'You are able to surf MyPal’s mobile application by downloading from Playstore and Applestore. We have experiential services just for you! including snagging deals and many more… You are able to view details, choose dates, and book directly with secure in-app payments. Bookings come with instant confirmations, QR codes, or e-tickets. MyPal facilitates smooth communication, reminders, and post-visit experience sharing.',
     },
     {
-        question: 'Can users share their experiences on MyPal?',
-        answer: 'Yes, users are encouraged to share their experiences by uploading photos and videos of the venues and services they have enjoyed, creating a community-driven platform.',
+        question: 'Are users able to share their experiences on MyPal?',
+        answer: 'Yes, you are encouraged to share your experiences with your loved ones and community by uploading photos and videos of the venues and services you have enjoyed, creating a community-driven platform.',
     },
     {
-        question: 'Is there a cost for businesses to join MyPal?',
-        answer: 'No, joining MyPal is free for all businesses. The platform is designed to help them grow their customer base and visibility without any financial barriers.',
+        question: 'Is there a cost for Businesses to join MyPal',
+        answer: 'No, joining MyPal is free for all businesses. The platform is designed to help businesses grow their customer base and visibility without any financial barriers.',
     },
     {
-        question: 'How does MyPal ensure the quality of services listed?',
-        answer: 'Answer will be displayed here.',
+        question: 'How does MyPal ensure the quality of services listed on its platform?',
+        answer: 'MyPal ensures service quality by verifying businesses during onboarding, reviewing their contents and services rendered, and enforcing service standards. Users provide feedback and ratings, while continuous monitoring helps maintain trust. Consistently poor performers risk review or removal from the platform.',
     },{
-        question: 'What should I do if I encounter an issue with a booking?',
-        answer: 'Answer will be displayed here.',
+        question: 'What should I do if I encounter an issue with my reservations, orders, or bookings',
+        answer: 'If you encounter an issue with your reservation, order, or booking, you can report it through the Help & Support section on MyPal. Our team will work with the business to ensure a fair resolution, which may include rescheduling, refunds, or alternative solutions.',
     },
 ];
 
