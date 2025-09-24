@@ -20,6 +20,8 @@ export default function Testpage() {
         );
         setCategories(response.data); // store categories in state
         setLoading(false);
+        console.log("Full response:", response);
+        console.log("resp.data:", response.data);
       } catch (err) {
         setError(err.response ? err.response.data : err.message);
         setLoading(false);
@@ -27,7 +29,7 @@ export default function Testpage() {
     }
 
     fetchCategories();
-  }, []); // empty dependency array ensures it runs once on mount
+  }, []); 
 
   if (loading) return <div>Loading categories...</div>;
   if (error) return <div>Error: {JSON.stringify(error)}</div>;
