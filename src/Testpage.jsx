@@ -61,14 +61,13 @@ export default function Testpage() {
           "https://api-mypal-com-5ifz.onrender.com/v1/categories/all",
           {
             headers: {
-              Authorization:
+              "x-api-key":
                 "mypal_dev_ddf00b24fb1b875a5750f9613eddcb15b50137171dd5b422f3e3b12fb096a353",
             },
           }
         );
-        const respData = response.data;
-        // If it’s nested:
-        const catArray = respData.data ?? respData;
+        // Depending on how the API returns data, adjust this
+        const catArray = response.data.data ?? response.data;
         setCategories(catArray);
       } catch (err) {
         setError(err.response ? err.response.data : err.message);
@@ -80,23 +79,23 @@ export default function Testpage() {
     fetchCategories();
   }, []);
 
-  if (loading) return <div>Loading categories…</div>;
-  if (error) return <div>Error: {JSON.stringify(error)}</div>;
+  if (loading) {
+    return <div>Loading categories…</div>;
+  }
+  if (error) {
+    return <div>Error: {JSON.stringify(error)}</div>;
+  }
 
   return (
     <div>
       <h1>Categories</h1>
       <ul>
-        {categories.map((cat) => {
-          // adjust these keys based on what you saw in console or docs
-          return (
-            <li key={cat.id || cat.slug}>
-              {cat.name} {cat.slug && `(${cat.slug})`}
-            </li>
-          );
-        })}
+        {categories.map((cat) => (
+          <li key={cat.id ?? cat.slug}>
+            {cat.name} {cat.slug && `(${cat.slug})`}
+          </li>
+        ))}
       </ul>
     </div>
   );
 }
-
