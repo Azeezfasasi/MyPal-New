@@ -19,6 +19,7 @@ import Accommodation from "./category/Accommodation"
 import BeautyHealth from "./category/BeautyHealth"
 import NightLife from "./category/NightLife"
 import Business from "./ForBusiness"
+import Testpage from "./testpage"
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/category/BeautyHealth" element={<BeautyHealth />} />
         <Route path="/category/nightlife" element={<NightLife />} />
         <Route path="/forbusiness" element={<Business />} />
+        <Route path="/testpage" element={<Testpage />} />
       </Routes>
     </>
   )
