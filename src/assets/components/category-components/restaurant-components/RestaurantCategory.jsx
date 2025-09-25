@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import finediningnew from '../../../images/finediningnew.jpg'
 import buffetnew from '../../../images/buffetnew.jpg'
-import iconicnew from '../../../images/iconicnew.jpg'
+// import iconicnew from '../../../images/iconicnew.jpg'
+import iconnicimg from '../../../images/iconnicimg.png'
 
 // Main component that contains all the cards
 export default function RestaurantCategory() {
@@ -21,7 +22,7 @@ export default function RestaurantCategory() {
     },
     {
       title: 'ICONIC DELICACIES & DRINKS',
-      image: iconicnew,
+      image: iconnicimg,
       alt: 'A vibrant disco ball with two cocktail glasses in the foreground.',
       link: '/restaurant/localdelicacies',
     },
@@ -35,8 +36,7 @@ export default function RestaurantCategory() {
             <Link
               key={index}
               to={category.link}
-              className="bg-[rgba(0,0,0,0.40)] relative w-full h-[300px] md:h-[563px] max-w-sm overflow-hidden rounded-[10px] shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105"
-            >
+              className="bg-[rgba(0,0,0,0.40)] relative w-full h-[300px] md:h-[563px] max-w-sm overflow-hidden rounded-[10px] shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
               {/* Image with a dark overlay */}
                 <img
                     src={category.image}

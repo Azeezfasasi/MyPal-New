@@ -10,7 +10,7 @@ const faqData = [
     },
     {
         question: 'How can Businesses Join MyPal?',
-        answer: 'Businesses can easily join MyPal by signing up here. Upon approval, you are able to access your dashboard, showcase your services with descriptions, menus, images, and videos, and start connecting with customers right away.',
+        answer: 'Businesses can easily join MyPal by <a href="https://business.mypal-inc.com/signup" target="_blank" rel="noopener noreferrer" class="text-[#db3a06] hover:underline">signing up here</a>. Upon approval, you are able to access your dashboard, showcase your services with descriptions, menus, images, and videos, and start connecting with customers right away.',
     },
     {
         question: 'What types of services can businesses offer on MyPal?',
@@ -92,9 +92,7 @@ export default function Faq() {
                             </button>
                             {/* Answer content, conditionally rendered */}
                             {openIndex === index && (
-                                <p className="mt-4 text-gray-600 animate-fadeIn w-[80%] text-left font-['Poppins-Regular',_sans-serif] text-lg font-normal">
-                                    {item.answer}
-                                </p>
+                                <p className="mt-4 text-gray-600 animate-fadeIn w-[80%] text-left font-['Poppins-Regular',_sans-serif] text-lg font-normal" dangerouslySetInnerHTML={{ __html: item.answer }} />
                             )}
                             <div
                             className="border-solid border-[rgba(0,0,0,0.22)] border-t border-r-[0] border-b-[0] border-l-[0] self-stretch shrink-0 h-0 relative mt-[15px] md:mt-[20px]"

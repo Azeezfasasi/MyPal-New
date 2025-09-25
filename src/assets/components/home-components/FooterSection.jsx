@@ -62,14 +62,13 @@ const FooterSection = () => {
                     </div>
                     
                     {/* Address */}
-                    <div className="flex items-start space-x-2 text-sm text-gray-300 mb-2">
-                        <img src={location} alt="" className='mr-[-14px] md:mr-2' />
+                    <div className="flex items-start space-x-2 text-sm text-gray-300 mb-3">
+                        <img src={location} alt="" className='mr-[0px] md:mr-2' />
                         <p className='text-[#ffffff] text-base font-normal'>18B Zainab Street, Medina, Gbagada, Lagos</p>
                     </div>
 
                     {/*Phone */}
                     <div className="flex items-center space-x-2 text-sm text-gray-300 mb-3">
-                        {/* <img src={phonecall} alt="" /> */}
                         <Phone />
                         <a href="tel:09055557535" className="hover:text-white transition-colors duration-200 text-[#ffffff] font-['Poppins-Regular',_sans-serif] text-base font-normal relative">09055557535</a>
                     </div>

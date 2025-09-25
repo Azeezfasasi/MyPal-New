@@ -19,7 +19,8 @@ import Accommodation from "./category/Accommodation"
 import BeautyHealth from "./category/BeautyHealth"
 import NightLife from "./category/NightLife"
 import Business from "./ForBusiness"
-import Testpage from "./Testpage"
+import Testpage from "./testpage"
+// import Testpage from "./Testpage"
 
 function App() {
   return (
