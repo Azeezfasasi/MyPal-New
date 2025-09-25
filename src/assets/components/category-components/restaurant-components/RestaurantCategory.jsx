@@ -36,7 +36,7 @@ export default function RestaurantCategory() {
             <Link
               key={index}
               to={category.link}
-              className="bg-[rgba(0,0,0,0.40)] relative w-full h-[300px] md:h-[563px] max-w-sm overflow-hidden rounded-[10px] shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+              className="relative w-full h-[300px] md:h-[563px] max-w-sm overflow-hidden rounded-[10px] shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
               {/* Image with a dark overlay */}
                 <img
                     src={category.image}
